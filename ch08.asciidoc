@@ -635,7 +635,7 @@ How, then, is such an adjustment made in a completely decentralized network? Dif
 The equation can be summarized as:
 
 ----
-New Difficulty = Old Difficulty * (Actual Time of Last 2016 Blocks / 20160 minutes)
+New Difficulty = Old Difficulty * (20160 minutes / Actual Time of Last 2016 Blocks)
 ----
 
 <<retarget_difficulty_code>> shows the code used in the Bitcoin Core client.
